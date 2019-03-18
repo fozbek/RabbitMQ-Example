@@ -1,0 +1,17 @@
+version: '2'
+
+services:
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports:
+      - 90:15672
+  
+  receiver:
+    build: ./receiver
+    restart: always
+  
+  producer:
+    build: ./producer
+    restart: always
+    ports:
+      - 91:8000
