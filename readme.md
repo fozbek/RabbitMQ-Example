@@ -8,7 +8,7 @@ An exmaple of use RabbitMQ in multiple programming languages, Golang and PHP.
 
 guest:guest
 
-You can send with producer 
+You can send message to RabbitMQ with producer 
 
     $ curl -d "id=1&name=Iphone" -X POST http://localhost:91
 
