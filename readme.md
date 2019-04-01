@@ -12,4 +12,4 @@ You can send message to RabbitMQ with producer
 
     $ curl -d "id=1&name=Iphone" -X POST http://localhost:91
 
-You can see the messages on docker-logs for now.
+You can see the messages on docker-compose logs for now.
